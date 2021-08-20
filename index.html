@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="header">
+        <!--------------------------------------ARTICULO ZQUIERDO------------------------------->
+        <div class="article left">
+            <!--MENU IZQUIERDO-->
+            <div id="navLeft">
+                <div id="menu">
+                    <h3 class="iconsMenu">
+                         <a href href="https://github.com/xDILANx/Web-Store" style="text-decoration: none; color: white;"><img src="Imagenes/github.png" alt="" />GitHub</a>
+                    </h3>
+                    <h3 class="iconsMenu">
+                        <a class="projects" href="" style="text-decoration:none; color: white;"><img src="Imagenes/rocket.png" alt=""/> Proyectos</a>
+                    </h3>
+                    <h3 class="iconsMenu">
+                        <a href="" style="text-decoration: none; color: white;"><img src="Imagenes/online-courses.png" alt=""/> Cursos</a>
+                    </h3>
+                </div>
+            </div>
+             <!--SECCIÓN IZQUIERDA--> 
+            <div id="sectionLeft">
+                <div id="pInformation">
+                    <h3>Web Developer</h3>
+                    <h3>Dilan Esteban Villada Salazar</h3>
+                    <h3>estebanvilladasalazar@gmail.com</h3>
+                    <h3>3102630460</h3>
+                </div>
+                <form class="form hide">
+                    <center>CONTACTAR</center>
+                    <input type="text" name="Nombre" required="true" autocomplete="on" placeholder="Nombre"></input>
+                    <input type="text" name="Apellido" required="true" autocomplete="on" placeholder="Apellido"></input>
+                    <input type="email" name="email" required="true" autocomplete="on" placeholder="Correo" ></input>
+                    <input type="number" name="number" required="true" autocomplete="of" placeholder="Celular"></input>
+                    <input id="submit" type="submit" value="Enviar"></input>
+                </form>
+            </div>
+             <!--PIE DE PAGINA IZQUIRDA--> 
+            <div id="footerLeft">
+                <img src="Imagenes/smartphone.png" alt="" onclick="showContact()"/>
+            </div>
+        </div>
+        <!-------------------------------------ARTICOLO DERECHO------------------------------------>
+        <div class="article right">
+            <!--MENU DERECHO-->
+            <div id="navRight">
+                <div id="containPhoto">
+                    <div id="photo"></div>
+                </div>
+            </div>
+            <!--SECTION RIGHT-->
+            <div id="sectionRight">
+                <h1 style="border-bottom: solid 3px #000">HABILIDADES</h1>
+                <h2 style="border-bottom: solid 3px #00ffff">DESARROLLO FORNT-END</h2>
+                <img src="Imagenes/code-document.png" alt="">
+                <div id="frontEnd">
+                    <h3>HTML</h3>
+                    <h3>CSS</h3>
+                    <h3>CSS-Flexbox</h3>
+                    <h3>CSS-Grid</h3>
+                    <h3>JAVASCRIPT</h3>
+                    <h3>AJAX</h3>
+                    <h3>API FETCH</h3>
+                    <h3>ANGULAR</h3>
+                    <h3>NATIVESCRIPT</h3>
+                </div>
+                <br>
+                <h2 style="border-bottom: solid 3px #ffee00">DESARROLLO BACK-END</h2>
+                <img src="Imagenes/server-chart.png" alt="">
+                <div id="frontEnd">
+                    <h3>PHP</h3>
+                    <h3>MYSQL</h3>
+                    <h3>POSTGRES</h3>
+                    <h3>TYPESCRIPT</h3>
+                    <h3>NODEJS</h3>
+                    <h3>JAVA</h3>
+                </div>
+                <br>
+                <h2 style="border-bottom: solid 3px #4f5a5a">CONTROL DE VERSIONES</h2>
+                <img src="Imagenes/window.png" alt="">
+                <div id="frontEnd">
+                    <h3>GIT</h3>
+                    <h3>GITHUB</h3>
+                    <h3>LINUX</h3>
+                    <h3>TERMINAL</h3>
+                </div>
+            </div>
+            
+            <!--DESLIZADOR  -->
+            <!--<div class="slider" id="slider">
+                <div class="sliderSection"></div>
+                <div class="sliderSection"></div>
+                <div class="sliderSection"></div>
+                <div class="sliderSection"></div>
+                <div class="sliderSection"></div>
+                <div class="sliderSection"></div>
+                <div class="sliderSection">
+                    <a href="https://iconscout.com/icons/github" target="_blank">Github Logo Icon</a> by <a href="https://iconscout.com/contributors/alfredo-hernandez" target="_blank">Alfredo Hernandez</a><br>
+                    <a href="https://iconscout.com/icons/th" target="_blank">Th Icon</a> by <a href="https://iconscout.com/contributors/typicons-1">Typicons</a> on <a href="https://iconscout.com">Iconscout</a><br>
+                    Iconos diseñados por <a href="" title="iconixar">iconixar</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a>
+                </div>
+                <div class="button" id="btnLeft" onclick="back()">&#60;</div>
+                <div class="button" id="btnRight" onclick="next()">&#62;</div>
+            </div>-->
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
